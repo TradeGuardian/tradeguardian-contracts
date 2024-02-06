@@ -1,6 +1,6 @@
 # TradeGuardian
 
-TradeGuardian is a specialized protocol designed to provide an extra layer of protection for both buyers and sellers engaged in the trading of digital items.
+TradeGuardian is a specialized protocol designed to provide an extra layer of protection for both buyers and sellers engaged in the trading of offchain digital items.
 
 ## Usage
 
