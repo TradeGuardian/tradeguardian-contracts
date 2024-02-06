@@ -20,6 +20,7 @@ contract Escrow is ReentrancyGuard {
     address public seller;
     address public buyer;
     uint256 public itemPrice;
+    string public description;
     uint256 public contractCreationDate;
     uint256 public deadlineForInitialDeposits;
     bool private hasSellerSettled = false;
@@ -67,12 +68,14 @@ contract Escrow is ReentrancyGuard {
         address _feeRecipient,
         address _seller,
         address _buyer,
-        uint256 _itemPrice
+        uint256 _itemPrice,
+        string memory _description
     ) {
         feeRecipient = _feeRecipient;
         seller = _seller;
         buyer = _buyer;
         itemPrice = _itemPrice;
+        description = _description;
         contractCreationDate = block.timestamp;
         deadlineForInitialDeposits = contractCreationDate + TWO_HOURS_IN_SECS;
     }
