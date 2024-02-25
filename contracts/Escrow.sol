@@ -23,8 +23,8 @@ contract Escrow is ReentrancyGuard {
     string public description;
     uint256 public contractCreationDate;
     uint256 public deadlineForInitialDeposits;
-    bool private hasSellerSettled = false;
-    bool private hasBuyerSettled = false;
+    bool public hasSellerSettled = false;
+    bool public hasBuyerSettled = false;
 
     enum EscrowState {
         AWAITING_DEPOSIT,
