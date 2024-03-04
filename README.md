@@ -2,6 +2,8 @@
 
 TradeGuardian is a specialized DeFi protocol designed to provide an extra layer of protection for both buyers and sellers engaged in the trading of offchain digital assets.
 
+https://www.youtube.com/watch?v=ybx3yy7fKNc
+
 ## Usage
 
 1. Clone the whole ```tradeguardian-contracts``` repository
